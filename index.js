@@ -75,8 +75,8 @@ inquirer.prompt(questions).then(response => {
         console.log(data);
     
     });
-    
-    fs.appendFileSync('README.md', (`<img src="https://img.shields.io/badge/javascript-100%25-blue" alt="badge"><br>`) + `\n`, function (err) {
+
+    fs.appendFileSync('README.md', (`Ratio of Code: <img src="https://img.shields.io/badge/javascript-100%25-blue" alt="badge"><br>`) + `\n`, function (err) {
         if (err) {
             return console.log(err);
         }
@@ -164,10 +164,3 @@ inquirer.prompt(questions).then(response => {
     
     });
 });
-
-    
-// function init() {
-
-// }
-
-// init();
